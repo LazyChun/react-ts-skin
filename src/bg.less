@@ -1,0 +1,13 @@
+@import "./theme";
+
+.container(@background:red){
+  background: @background;
+}
+
+.default_container{
+  .container(red)
+}
+
+.dark_container{
+  .container(black)
+}
